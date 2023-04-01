@@ -1,0 +1,3 @@
+## Client Module Service
+
+The Client Module Service is a microservice that provides APIs for data encryption, local model training, and zk-SNARK proof generation. It interacts with the Smart Contract Service to submit encrypted model updates and zk-SNARK proofs, and retrieves the global model from IPFS after obtaining the IPFS hash from the smart contract. The service is responsible for handling the encryption of data before it is sent to the Smart Contract Service for aggregation, and for generating zk-SNARK proofs to ensure the privacy and integrity of the data. Overall, the Client Module Service plays a critical role in ensuring the secure and private training of our global machine learning model.
